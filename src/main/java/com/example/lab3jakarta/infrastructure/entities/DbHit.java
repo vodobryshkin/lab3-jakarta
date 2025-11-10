@@ -22,6 +22,7 @@ import java.util.UUID;
 @Getter
 public class DbHit {
     @Id
+    @Column(name="uuid")
     private UUID id;
 
     @Column(name = "x", precision = 38, scale = 2)

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html"
+      xmlns:p="primefaces">
+<h:head>
+    <title>Лаба #3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tacit-css@1.9.3/dist/tacit-css.min.css"/>
+    <h:outputStylesheet library="static" name="css/start.css"/>
+</h:head>
+<h:body>
+    <style>
+        header { display:flex; flex-direction:row; justify-content:space-between; }
+    </style>
+
+    <header>
+        <h1>Добрышкин Владимир Александрович</h1>
+        <h1>P3207</h1>
+        <h1>Вариант 601650</h1>
+    </header>
+
+    <div class="clock">
+        <h:form id="clockForm">
+            <h:outputText id="clock" styleClass="clock-element" value="#{timeBean.now}"/>
+            <p:poll interval="8" update="clockForm:clock"/>
+        </h:form>
+    </div>
+
+    <nav class="nav">
+        <h:form id="navForm">
+            <h:commandButton styleClass="index-button" action="toIndexPage" value="Перейти на главную страницу"/>
+        </h:form>
+    </nav>
+</h:body>
+</html>

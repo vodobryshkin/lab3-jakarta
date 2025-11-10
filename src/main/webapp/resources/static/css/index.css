@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 16px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+#input-coordinates-form > div {
+    margin-bottom: 12px;
+}
+
+#navForm{
+    align-self:center;
+    margin-top: 48px;
+}
+
+#canvas, #hitTable {
+    width: 600px;
+    height: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
