@@ -75,6 +75,16 @@
             <artifactId>postgresql</artifactId>
             <version>42.7.4</version>
         </dependency>
+        <dependency>
+            <groupId>ru.ifmo.se</groupId>
+            <artifactId>bigdecimalgm</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.ifmo.se</groupId>
+            <artifactId>coordinates-validation-web-labs</artifactId>
+            <version>3.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>

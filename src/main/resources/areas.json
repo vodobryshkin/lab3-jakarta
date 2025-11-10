@@ -1,0 +1,29 @@
+{
+  "areas": [
+    {
+      "type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "format": "upper-left",
+      "widthK": 0.5,
+      "heightK": 1
+    },
+    {
+      "type": "triangle",
+      "xA": 0,
+      "yA": 0,
+      "xBK": 0,
+      "yBK": 1,
+      "xCK": -1,
+      "yCK": 0
+    },
+    {
+      "type": "circle",
+      "xC": 0,
+      "yC": 0,
+      "radiusK": 0.5,
+      "startAngleK": 0,
+      "endAngleK": 0.5
+    }
+  ]
+}

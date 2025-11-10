@@ -1,0 +1,17 @@
+{
+  "xType": "including",
+  "yType": "array",
+  "rType": "including",
+
+  "x": {
+    "leftIncludingBorder": "-5",
+    "rightIncludingBorder": "3"
+  },
+
+  "y": ["-3", "-2", "-1", "0", "1", "2", "3", "4", "5"],
+
+  "r": {
+    "leftIncludingBorder": "1",
+    "rightIncludingBorder": "4"
+  }
+}
